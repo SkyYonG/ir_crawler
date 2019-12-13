@@ -7,7 +7,7 @@
 2) Datetime
 3) Pymongo
 
-The crawler collects ir data from the previous day, processes it into the required form and stores it in a csv file. The data stored in csv is stored together in Mongodb for backup.
+The crawler collects ir data from the previous day and stores it in a csv file. The data stored in csv is stored together in Mongodb for backup.
 
 From the site above, the crawler enters the page with date "1일전" and collects data.
 
@@ -15,9 +15,9 @@ From the site above, the crawler enters the page with date "1일전" and collect
 
 ◈ Data collected by crawler
 1) corporate name
-2) company code
-3) date uploaded
-4) link to download ir-material
+2) date uploaded
+3) link to download ir-material
+4) company code
 
 ◈ Data stored in csv files
 1) corporate name
@@ -25,9 +25,9 @@ From the site above, the crawler enters the page with date "1일전" and collect
 3) link to download ir-material
 4) link to view the company's financial statements (using company code)
 
-### 2. How to use the jupyter_notebook file (ir_for_foreigners.ipynb)
+### 2. How to use the jupyter_notebook file (ir_for_foreigners_edited.ipynb)
 
-Please use "ir_for_foreigners.ipynb". This is the most recent file I uploaded.
+Please use "ir_for_foreigners_edited.ipynb". This is the most recent file I uploaded.
 
 It's easy to use. Simply run the code in this file in order.
 
@@ -94,9 +94,9 @@ Go to the "save_csv" folder and make sure that the csv files have been saved.
 3) ir자료 다운로드 링크
 4) 해당 기업 재무제표를 볼 수 있는 링크(종목 코드를 이용해 가공)
 
-### 2. jupyter_notebook 파일 사용법 (ir_yesterday.ipynb)
+### 2. jupyter_notebook 파일 사용법 (ir_yesterday_edited.ipynb)
 
-"ir_yesterday.ipynb"를 사용하시기 바랍니다. 가장 최근에 업로드한 파일입니다. ("ir_for_foreigners.ipynb"는 외국인들을 위해 영어 설명을 첨부한 파일입니다)
+"ir_yesterday_edited.ipynb"를 사용하시기 바랍니다. 가장 최근에 업로드한 파일입니다. ("ir_for_foreigners.ipynb"는 외국인들을 위해 영어 설명을 첨부한 파일입니다)
 
 사용법은 간단합니다. 이 파일에 나온 코드를 순서대로 실행시키면 됩니다.
 
